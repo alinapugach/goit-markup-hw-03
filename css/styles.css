@@ -103,10 +103,6 @@ margin: 0;
     gap: 40px;
 }
 
-.header-item {
-    /* padding: 24px 0; */
-}
-
 .header-address-item {
     margin-right: 40px;
 }
@@ -343,7 +339,7 @@ overflow: hidden;
 }
 
 .footer-content * {
-    margin-right: auto;
+    align-self: flex-start;
 }
 
 .footer-logo {
@@ -364,10 +360,6 @@ overflow: hidden;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-}
-
-.footer-logo-accent {
-    display: inline-block;
 }
 
 .footer-logo-accent,
