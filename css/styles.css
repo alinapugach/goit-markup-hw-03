@@ -344,7 +344,7 @@ overflow: hidden;
     padding: 0 15px;
 }
 
-.footer-logo {
+.footer .container .footer-logo {
     
     font-family: "Raleway", sans-serif;
     text-transform: uppercase;
