@@ -65,8 +65,8 @@ margin: 0;
 .header-nav,
 .header-address {
     color: #2E2F42;
-    /* padding-top: 24px;
-    padding-bottom: 24px; */
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-logo {
@@ -104,7 +104,7 @@ margin: 0;
 }
 
 .header-item {
-    padding: 24px 0;
+    /* padding: 24px 0; */
 }
 
 .header-address-item {
@@ -118,6 +118,7 @@ margin: 0;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 
 .header-item-link:hover,
@@ -347,7 +348,6 @@ overflow: hidden;
 
 .footer-logo {
     display: inline-block;
-    /* align-self: flex-start; */
     margin-bottom: 16px;
     color: #4d5ae5;
     font-family: "Raleway", sans-serif;
@@ -360,11 +360,14 @@ overflow: hidden;
 
 
 .footer-paragraph {
-    /* align-self: flex-start; */
     width: 264px;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+
+.footer-logo-accent {
+    display: inline-block;
 }
 
 .footer-logo-accent,
