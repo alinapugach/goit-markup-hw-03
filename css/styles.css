@@ -37,10 +37,10 @@ margin: 0;
 }
 
 .container {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     width: 1158px;
     padding: 0 15px 0 15px;
     margin: 0 auto;
