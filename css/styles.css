@@ -46,7 +46,7 @@ margin: 0;
     margin: 0 auto;
 }
 
-.container.header-menu {
+.header-menu {
     flex-direction: row;
     justify-content: space-between;
 }
@@ -165,7 +165,7 @@ margin: 0;
     display: block;
     align-items: flex-start;
     gap: 10px;
-    width: 169px;
+    min-width: 169px;
     height: 56px;
     border: none;
     border-radius: 4px;
@@ -304,7 +304,7 @@ overflow: hidden;
     display: flex;
     flex-wrap: wrap;
     row-gap: 48px;
-    gap: 24px;
+    column-gap: 24px;
 }
 
 .portfolio-item {
@@ -339,10 +339,6 @@ overflow: hidden;
 
 .footer {
     padding: 100px 0;
-}
-
-.footer-content {
-   align-self: flex-start; 
 }
 
 .footer-logo {
