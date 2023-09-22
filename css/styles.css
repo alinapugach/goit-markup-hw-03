@@ -65,8 +65,8 @@ margin: 0;
 .header-nav,
 .header-address {
     color: #2E2F42;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    /* padding-top: 24px;
+    padding-bottom: 24px; */
 }
 
 .header-logo {
@@ -104,7 +104,7 @@ margin: 0;
 }
 
 .header-item {
-    padding: 24px 0 24px;
+    padding: 24px 0;
 }
 
 .header-address-item {
@@ -341,8 +341,13 @@ overflow: hidden;
     padding: 100px 0;
 }
 
+.footer-content * {
+    margin-right: auto;
+}
+
 .footer-logo {
     display: inline-block;
+    /* align-self: flex-start; */
     margin-bottom: 16px;
     color: #4d5ae5;
     font-family: "Raleway", sans-serif;
@@ -355,6 +360,7 @@ overflow: hidden;
 
 
 .footer-paragraph {
+    /* align-self: flex-start; */
     width: 264px;
     font-weight: 400;
     line-height: 1.5;
