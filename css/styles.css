@@ -338,44 +338,30 @@ overflow: hidden;
     padding: 100px 0;
 }
 
+.footer .container {
+align-items: self-start;
+margin: 0 auto;
+padding: 0 15px;
+}
+
 .footer-logo {
-        color: #4d5ae5;
-        align-self: flex-start;
-        font-family: 'Raleway', sans-serif;
-        font-size: 18px;
-        font-weight: 700;
-        line-height: 1.16;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        text-decoration: none;
-        margin-bottom: 16px;
-}
-
-.footer-link {
-        display: inline-block;
-}
-
-
-    /* display: inline-block;
-    justify-content: center;
-    align-self: flex-start;
-    margin-bottom: 16px;
-    color: #4d5ae5;
+    display: inline-block;
     font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
-    text-decoration: none; */
+    text-decoration: none;
+    color: #4d5ae5;
+    margin-bottom: 16px;
+}
 
 
 .footer-paragraph {
     width: 264px;
-    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    align-self: flex-start;
 }
 
 .footer-logo-accent,
