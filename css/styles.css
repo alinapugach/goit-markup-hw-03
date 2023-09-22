@@ -9,8 +9,9 @@ img {
     display: block;
 }
 
-li {
+ul {
     list-style-type: none;
+    padding: 0px;
 }
 
 a:hover,
@@ -46,13 +47,13 @@ margin: 0;
     margin: 0 auto;
 }
 
-.header {
+/* .header {
     border-bottom: 1px solid #E7E9FC;
 }
 
 .header-menu {
     display: flex;
-    flex-direction: row;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -128,7 +129,7 @@ margin: 0;
     text-decoration: none;
     line-height: 1.5;
         letter-spacing: 0.02em;
-}
+} */
 
 .solutions {
     text-align: center;
