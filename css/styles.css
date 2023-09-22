@@ -38,10 +38,17 @@ margin: 0;
 
 .container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     width: 1158px;
     padding: 0 15px 0 15px;
     margin: 0 auto;
+}
+
+.container.header-menu {
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .header {
@@ -138,12 +145,13 @@ margin: 0;
 }
 
 .solutions {
+
     text-align: center;
     padding: 188px 0 188px
 }
 
 .solutions-title {
-    padding-top: 188px;
+    display: flex;
     text-align: center;
     margin-bottom: 48px;
     max-width: 496px;
@@ -155,10 +163,9 @@ margin: 0;
 
 .solutions-btn {
     display: block;
-    padding: 16px 32px;
     align-items: flex-start;
     gap: 10px;
-    min-width: 169px;
+    width: 169px;
     height: 56px;
     border: none;
     border-radius: 4px;
@@ -257,13 +264,6 @@ overflow: hidden;
     padding-bottom: 120px;
 }
 
-
-
-.team-img,
-.portfolio-img {
-    margin-bottom: 32px;
-}
-
 .team-inform {
     padding: 32px 0;
 }
@@ -339,6 +339,10 @@ overflow: hidden;
 
 .footer {
     padding: 100px 0;
+}
+
+.footer-content {
+   align-self: flex-start; 
 }
 
 .footer-logo {
