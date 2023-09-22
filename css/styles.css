@@ -47,11 +47,11 @@ margin: 0;
 }
 
 .header {
-    display: flex;
     border-bottom: 1px solid #E7E9FC;
 }
 
 .header-menu {
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
